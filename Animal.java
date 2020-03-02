@@ -8,4 +8,8 @@ public class Animal {
     this.name = name;
     this.legs = legs;
   }
+  
+  public int getLegs() {
+    return this.legs;
+  }
 }
