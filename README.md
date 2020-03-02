@@ -9,4 +9,4 @@
 - a Comparator of type Animal
 
 3. Can you spot the Comparator constructor call? Where is the class definition for the Comparator?
-- the Comparator constructor call is in line 16 new Comparator<Animal>() and the class definition for the Comparator is imported from the java.Comparator.* line.
+- The Comparator constructor call is in line 16 new Comparator<Animal>() and the class definition for the Comparator is imported from the java.Comparator.* line and the compare method from the Comparator interface is overridden following the constructor call.
